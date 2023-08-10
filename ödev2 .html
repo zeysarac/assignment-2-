@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <table
+      border
+      style="
+        background-image: url(./image/IMG_7325.JPG);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      "
+    >
+      <thead>
+        <tr>
+          <th rowspan="2">Day</th>
+          <th colspan="2">Schedule</th>
+          <th rowspan="2" colspan="2">Topic</th>
+        </tr>
+
+        <tr>
+          <th>Begin</th>
+          <th>End</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>Tuesday</td>
+          <td>07:00 am</td>
+          <td>11:00 am</td>
+          <td colspan="2" rowspan="2">
+            Computer Fundemental <br />
+            <ul>
+              <li>Hardware</li>
+              <li>OS</li>
+              <li>Storage</li>
+              <li>Data</li>
+            </ul>
+          </td>
+        </tr>
+
+        <tr>
+          <td rowspan="5">Thursday</td>
+          <td>07:00 am</td>
+          <td>07:50 am</td>
+        </tr>
+
+        <!-- bu alt ve üstteki ekstra hücreleri eklediğin için
+      bi şekilde doğru yapmışsın ama aslında satırlar gördüğün gibidir. Yani şişman hücreler vardır ve onlar sadece 1 hücre sayılır
+    aynı şekilde-->
+
+        <tr>
+          <td>08:00 am</td>
+          <td>08:50 am</td>
+          <td rowspan="2" colspan="2">HTML<br />CSS</td>
+        </tr>
+
+        <tr>
+          <td>09:00 am</td>
+          <td>10:00 am</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
